@@ -1,0 +1,5 @@
+char[] a1 = { 'a','b','c' }; → pones las letras directamente. Súper corto y claro.
+
+char[] a2 = new char[] { 'a','b','c' }; → lo mismo pero dices explícitamente “creo el arreglo”.
+
+char[] a3 = new char[3]; a3[0]='a'; ... → primero haces los casilleros y luego los rellenas uno por uno, útil si los valores vienen de otra parte (por ejemplo leer del teclado).
