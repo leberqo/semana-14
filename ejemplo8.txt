@@ -1,0 +1,20 @@
+Función ingreso()
+
+Lee la frase y devuelve Console.ReadLine().ToCharArray().
+
+Función invertir(char[] c)
+
+Misma lógica que invertir enteros: intercambio in-place usando aux:
+
+for (int i=0; i < size/2; i++) {
+    aux = c[i];
+    c[i] = c[size - i - 1];
+    c[size - i - 1] = aux;
+}
+
+
+Esto revierte la secuencia de caracteres, incluyendo espacios y signos.
+
+Función imprimir(char[] c)
+
+Muestra c.Length y recorre para imprimir cada carácter.
