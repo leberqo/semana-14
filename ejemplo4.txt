@@ -1,0 +1,7 @@
+Convertí la frase fija ("Bienvenido ") a un array de caracteres (char[]).
+
+Convertí el nombre que te ingresaron a otro array de caracteres (char[]).
+
+Redimensionás el primer array (la frase de bienvenida) para que tenga espacio suficiente para sumar todos los caracteres del nombre (usás Array.Resize o similar).
+
+Copiás los caracteres del nombre al final de ese array más grande.
