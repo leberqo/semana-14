@@ -1,0 +1,7 @@
+Este ejercicio es clave para aprender a organizar el código usando funciones:
+
+ingreso(): Se encarga de pedirte el tamaño del array, leer los números y devolver el array completo.
+
+invertir(): Hace los swaps (intercambios): El primer elemento va con el último, el segundo con el penúltimo, y así vas yendo hacia el centro hasta que llegás a la mitad.
+
+imprimir(): Simplemente recorre el array y lo muestra.
