@@ -1,0 +1,3 @@
+Convierte el carácter a su código (ASCII/Unicode) o usa funciones listas como char.IsDigit(c) y char.IsLetter(c) (estas últimas son más seguras para otros alfabetos).
+
+Si está entre 48 y 57 → número; entre 65 y 90 (o usando IsLetter) → letra; sino → símbolo.
