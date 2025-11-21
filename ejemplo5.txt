@@ -1,0 +1,6 @@
+Lees la frase y la transformás en un char[] para poder recorrerla carácter por carácter.
+
+
+Antes de analizar, normalizás el carácter (por ejemplo, con ToUpper()). Así te da igual si es 'A' o 'a'.
+
+Usás un switch o una cadena de if para ver si es 'A', 'E', 'I', 'O', 'U' y subir el contador que le corresponde.
