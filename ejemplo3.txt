@@ -1,0 +1,13 @@
+
+
+El Corto y Claro: Pones las letras directo.
+
+char[] a1 = { 'a','b','c' };
+
+El Explícito: Igual que el anterior, pero declarando que es un array nuevo.
+
+char[] a2 = new char[] { 'a','b','c' };
+
+El Llenado Lento: Primero haces los casilleros, y luego los rellenas uno por uno. Esto es práctico si los valores van a venir de otro lado (como si los leés del teclado)
+
+char[] a3 = new char[3]; a3[0]='a';
